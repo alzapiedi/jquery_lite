@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="./jquery_lite.js"></script>
+
+    <title> TEST
+    </title>
+    <style>
+
+    p {
+      background: inherit;
+      display: inline;
+    }
+    div {
+      display: inline;
+      background: yellow;
+    }
+    div:hover p {
+      background:green;
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+    $l(function () {
+    $l('div').on("click", function() {
+      alert("it works");
+    });
+  });
+    </script>
+
+    <div>
+      <p>
+        WORDS! TESTING
+      </p>
+    </div>
+
+
+    <ul class='one'>
+      <li name="one" class="two">ITEM 1</li>
+      <li class="hello">ITEM 2</li>
+      <li>ITEM 3</li>
+      <li>ITEM 4</li>
+      <li>ITEM 5</li>
+    </ul>
+    <ul class='two'>
+      <li name="one" class="two">ITEM 1</li>
+      <li class="hello">ITEM 2</li>
+      <li>ITEM 3</li>
+      <li>ITEM 4</li>
+      <li>ITEM 5</li>
+    </ul>
+
+
+    <a href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+      Google picture
+    </a>
+
+
+  </body>
+</html>
